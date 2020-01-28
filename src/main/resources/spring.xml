@@ -11,8 +11,8 @@
     <!--<bean id="car" class="beans.Car" />-->
     <context:component-scan base-package="beans"></context:component-scan>
 
-    <bean id="tyre" class="beans.Tyre">
-        <!--<property name="brand" value="MRF" />-->
+    <!--<bean id="tyre" class="beans.Tyre">
+        <property name="brand" value="MRF" />
         <constructor-arg value="Ceat" />
-    </bean>
+    </bean>-->
 </beans>
